@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "920277465583",
+    "firebase_url": "https://sparenfinal.firebaseio.com",
+    "project_id": "sparenfinal",
+    "storage_bucket": "sparenfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920277465583:android:18026086ed981451",
+        "android_client_info": {
+          "package_name": "com.example.mahdi.sparenfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920277465583-8vgs0nmli0fj3hdv09uu9ihkmcdtk29f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mahdi.sparenfinal",
+            "certificate_hash": "ab283631aa6a87616e426da09bada3145cbb94ee"
+          }
+        },
+        {
+          "client_id": "920277465583-15gsulvg9lku7rsmn2smlrtqi6fbpp1p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv-8cZfqYspl8NCbPaefzzLaEfOxtkC88"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920277465583-15gsulvg9lku7rsmn2smlrtqi6fbpp1p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Sparen Final</string>
+    <string name="type">Select a Type </string>
+    <string-array name="Type">
+        <item>Type A</item>
+        <item>Type B</item>
+        <item>Type C</item>
+    </string-array>
+
+</resources>

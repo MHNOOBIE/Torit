@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:id="@+id/rl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:textSize="24sp"
+            android:textColor="#333"
+            android:layout_marginTop="70dp"
+            android:id="@+id/tvWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Power Calculator"
+            android:textColor="#FFF"
+            android:background="#4CAF50"
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Compare with neighbours"
+            android:textColor="#FFF"
+            android:background="#8BC34A"
+            />
+
+        <Button
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Graphical Representation"
+            android:textColor="#FFF"
+            android:background="#9CCC65"
+            />
+
+        <Button
+            android:id="@+id/btnLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:background="#304ffe"
+            android:text="Logout"
+            android:textColor="#FFF" />
+    </LinearLayout>
+        <ProgressBar
+            android:id="@+id/pbarProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="500dp"
+            android:layout_centerHorizontal="true"
+            />
+    </RelativeLayout>
+</ScrollView>
